@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/DELL/code/gui/inc/glfw/deps/glad_gl.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/gl.h
+-
+
+inc/glfw/deps/glad/gl.h
+winapifamily.h
+-
+glad/khrplatform.h
+-
+
+inc/glfw/deps/glad/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
